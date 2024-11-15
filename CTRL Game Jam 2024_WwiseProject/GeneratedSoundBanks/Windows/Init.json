@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{E8C73C05-9AC5-A17E-EA11-491BBCB2A45E}",
+    "Hash": "{3D84AEA6-3EE3-5A2C-4C63-A0A693BAF383}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -41,9 +41,45 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "640949982",
+      "Name": "Speed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Speed",
+      "GUID": "{A6751AAF-A6AD-4F7B-9984-E68D28432FAF}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{BAA72886-F8C1-4FAC-BD50-D2C0C36ACC61}",
+      "Switches": [
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Sand",
+        "GUID": "{8355C6F7-D813-4C00-9CF6-C32D9B7ABAB7}"
+       },
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Gravel",
+        "GUID": "{4B302A91-2185-40D4-80A1-C79E34D325A3}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Grass",
+        "GUID": "{4DF33365-4BC5-4647-8E31-D9B3A1270916}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{CF5F6B36-04E2-9575-336A-EF1927D24DE7}"
+  "FileHash": "{F3BF2BF5-ACE9-2583-5622-BCFDD44B1FB5}"
  }
 }

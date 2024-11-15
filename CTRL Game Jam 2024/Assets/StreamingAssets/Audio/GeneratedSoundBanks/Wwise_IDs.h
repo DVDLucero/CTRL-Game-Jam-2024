@@ -11,6 +11,27 @@
 
 namespace AK
 {
+    namespace SWITCHES
+    {
+        namespace FOOTSTEPS
+        {
+            static const AkUniqueID GROUP = 2385628198U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID GRAVEL = 2185786256U;
+                static const AkUniqueID SAND = 803837735U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEPS
+
+    } // namespace SWITCHES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID SPEED = 640949982U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
