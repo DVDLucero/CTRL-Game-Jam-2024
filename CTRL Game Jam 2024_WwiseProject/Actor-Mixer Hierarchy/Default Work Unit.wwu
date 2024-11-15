@@ -1,6 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{67B2AA30-0FE6-402D-84C9-820C422E1728}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{67B2AA30-0FE6-402D-84C9-820C422E1728}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{67B2AA30-0FE6-402D-84C9-820C422E1728}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{DBD01436-F2E4-4859-8F58-F4DFB15E3B77}" ShortID="730068503"/>
+				<Folder Name="Locomotive" ID="{77D636EB-5C09-4C5F-92CE-7C781EE049CC}" ShortID="383088640">
+					<ChildrenList>
+						<SwitchContainer Name="Footsteps" ID="{F5F8BDD1-A19C-4D94-B54A-6284E96B1802}" ShortID="986334014">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{927861FC-48D7-49AC-B7D3-D08A09CEEB23}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D6995FAB-63D0-4725-90CB-B4E95C584097}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Grass" ID="{851B8693-B4DE-482B-8023-9032C40B3C28}" ShortID="991514028">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{927861FC-48D7-49AC-B7D3-D08A09CEEB23}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D6995FAB-63D0-4725-90CB-B4E95C584097}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Gravel" ID="{226D4449-9BD6-478A-918F-F83A2A39C21C}" ShortID="858787183">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{927861FC-48D7-49AC-B7D3-D08A09CEEB23}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D6995FAB-63D0-4725-90CB-B4E95C584097}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Sand" ID="{4F392C40-258F-4018-913D-88BDE74A8CBD}" ShortID="306180919">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{927861FC-48D7-49AC-B7D3-D08A09CEEB23}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D6995FAB-63D0-4725-90CB-B4E95C584097}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Sand" ID="{4F392C40-258F-4018-913D-88BDE74A8CBD}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Gravel" ID="{226D4449-9BD6-478A-918F-F83A2A39C21C}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Grass" ID="{851B8693-B4DE-482B-8023-9032C40B3C28}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="GUI" ID="{FA4644DB-C017-4879-85A7-473E9644DA3B}" ShortID="982891400"/>
+				<Folder Name="Ambience" ID="{9399570E-13A3-46AA-959F-006BBC03C8DD}" ShortID="429208912"/>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
