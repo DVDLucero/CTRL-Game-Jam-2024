@@ -13,29 +13,26 @@ namespace AK
 {
     namespace SWITCHES
     {
-        namespace FOOTSTEPS
+        namespace GROUND
         {
-            static const AkUniqueID GROUP = 2385628198U;
+            static const AkUniqueID GROUP = 2528658256U;
 
             namespace SWITCH
             {
                 static const AkUniqueID GRASS = 4248645337U;
                 static const AkUniqueID GRAVEL = 2185786256U;
                 static const AkUniqueID SAND = 803837735U;
+                static const AkUniqueID STONE = 1216965916U;
+                static const AkUniqueID WATER = 2654748154U;
             } // namespace SWITCH
-        } // namespace FOOTSTEPS
+        } // namespace GROUND
 
     } // namespace SWITCHES
-
-    namespace GAME_PARAMETERS
-    {
-        static const AkUniqueID SPEED = 640949982U;
-    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID MAIN_SOUNDBANK = 2228651116U;
+        static const AkUniqueID MAIN = 3161908922U;
     } // namespace BANKS
 
     namespace BUSSES

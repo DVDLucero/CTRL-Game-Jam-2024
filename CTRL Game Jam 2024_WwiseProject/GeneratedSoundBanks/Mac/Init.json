@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{F03D7BDF-C892-ACFB-E8AA-F0B0A9EFCAA0}",
+    "Hash": "{89C218AE-9E0B-8562-B379-0ABAC724E516}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -20,7 +20,7 @@
        "Id": "2317455096",
        "Name": "No_Output",
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
-       "GUID": "{064020E4-36AC-4102-A97E-F7CD359E7D0B}",
+       "GUID": "{47DFA1CB-C0BA-4EE5-9C63-457290C883B7}",
        "LibName": "No Output",
        "LibId": "11862023"
       },
@@ -28,7 +28,7 @@
        "Id": "3859886410",
        "Name": "System",
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
-       "GUID": "{EF0A8D10-16CC-46B4-99F3-9A01D7419CD8}",
+       "GUID": "{DAE7C87D-EA6C-447C-8255-0F9211E47A94}",
        "LibName": "System",
        "LibId": "11403271"
       }
@@ -42,44 +42,48 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ],
-    "GameParameters": [
-     {
-      "Id": "640949982",
-      "Name": "Speed",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Speed",
-      "GUID": "{A6751AAF-A6AD-4F7B-9984-E68D28432FAF}"
-     }
-    ],
     "SwitchGroups": [
      {
-      "Id": "2385628198",
-      "Name": "Footsteps",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
-      "GUID": "{BAA72886-F8C1-4FAC-BD50-D2C0C36ACC61}",
+      "Id": "2528658256",
+      "Name": "Ground",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Ground",
+      "GUID": "{9E9EDCC5-FCCC-42D3-9710-4FDA37F9FFA5}",
       "Switches": [
        {
         "Id": "803837735",
         "Name": "Sand",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Sand",
-        "GUID": "{8355C6F7-D813-4C00-9CF6-C32D9B7ABAB7}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground\\Sand",
+        "GUID": "{488A2423-81CA-43CE-8315-ADEE29C90B94}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground\\Stone",
+        "GUID": "{C15AD34D-2C94-4A62-B15C-A02CBB0E845D}"
        },
        {
         "Id": "2185786256",
         "Name": "Gravel",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Gravel",
-        "GUID": "{4B302A91-2185-40D4-80A1-C79E34D325A3}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground\\Gravel",
+        "GUID": "{8C55C81F-8A25-43B2-A8D7-C79D3E1A558D}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground\\Water",
+        "GUID": "{76EBA3F3-4682-4B8E-B018-9F02B4A9615E}"
        },
        {
         "Id": "4248645337",
         "Name": "Grass",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Grass",
-        "GUID": "{4DF33365-4BC5-4647-8E31-D9B3A1270916}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground\\Grass",
+        "GUID": "{6DD1B26C-0B37-484B-A71E-8C5B04F07547}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{65DF27C1-B1A3-2013-5CCC-ED27E8183B93}"
+  "FileHash": "{6EF8BCD5-C40E-493D-B19A-C478952A827B}"
  }
 }

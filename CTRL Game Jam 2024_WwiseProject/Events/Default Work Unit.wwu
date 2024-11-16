@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Locomotive" ID="{354D49DA-6D22-460C-B7DB-3FD73ED650AD}" ShortID="533427780">
+					<ChildrenList>
+						<Event Name="play_footsteps_player" ID="{6A48A850-5F6D-4264-953F-0116BE348D1C}">
+							<ChildrenList>
+								<Action Name="" ID="{62516F5A-8049-4652-A6D2-A82324627BB5}" ShortID="660704843">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sand" ID="{4F392C40-258F-4018-913D-88BDE74A8CBD}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{75AC125F-E7B1-4946-8AA0-9C7B3819713C}" ShortID="886066285">
+					<ChildrenList>
+						<Event Name="play_music_arabic_calm" ID="{0D46495F-4013-496A-8502-973F550D8325}">
+							<ChildrenList>
+								<Action Name="" ID="{11935CB3-5BE5-4254-A760-1A977589EB84}" ShortID="353806969"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_music_arabic_active" ID="{BEF8C9E2-3BF8-44FB-87CF-59F3D34382C1}"/>
+						<Event Name="stop_music_all" ID="{C72FF101-A5A8-4A39-B6DA-0B78F85FB580}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Environment" ID="{D6CBF976-4866-443A-9849-06EC724F91BA}" ShortID="777944068">
+					<ChildrenList>
+						<Event Name="play_ambient_desert_city" ID="{3BF692D0-3FB0-450C-B0A1-935CCB12AB5E}"/>
+						<Event Name="stop_ambient_desert_city" ID="{54D9AFE2-1644-4CEB-A010-7163DABFCC89}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{120099AE-C48F-4228-8284-A14B0BDC5242}" ShortID="790293178"/>
+				<Folder Name="Camel" ID="{CD2D5BC4-7E74-42D5-BD48-6E649BEA865C}" ShortID="409723691">
+					<ChildrenList>
+						<Event Name="play_camel_grunt" ID="{BF654A35-8015-4A93-BCAF-8F32770DEFA8}">
+							<ChildrenList>
+								<Action Name="" ID="{D65C9BD5-2179-4180-A596-D9C3A7DBC48B}" ShortID="883436832">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ANIMAL WILD Camel A, Grunt, Groan, Roar x13_wav 12" ID="{649C6FD8-BA51-400B-AE51-24836B401CDE}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
