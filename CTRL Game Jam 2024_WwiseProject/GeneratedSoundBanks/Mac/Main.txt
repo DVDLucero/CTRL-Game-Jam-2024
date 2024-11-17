@@ -49,7 +49,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	925353560	Arabic Music Active	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\D3\{D332B1AB-D41C-FE22-6791-8E11FD951D15}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Arabic Music Active		38405560
 	978542948	Footsteps_Water_4	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\D9\{D932F626-4A0A-D98C-FAAE-0DEEB142A750}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Locomotive\Footsteps\Water\Footsteps_Water_4		135700
 	1009620589	Fruit Squish	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\61\{6146F031-C6A7-0C9A-97CA-2AA61FDB1D41}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Misc\Fruit Squish		89406
-	1041466849	Pouring Water	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\84\{8445EC4C-1D8C-E97B-1717-932474578356}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Misc\Pouring Water		681450
+	1041466849	Pouring Water	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\60\{60789B6F-437E-A2FD-04CA-997F20911A5C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Misc\Pouring Water		186798
 	1048546360	Sword Swing Miss	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\F3\{F337520C-81B4-DA8B-D605-1345B3F5A90C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Misc\Sword Swing Miss		69728
 	1059251377	Footsteps_Water_1	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\9B\{9B7FC57E-3921-21D0-1C1D-E8B2A3821C35}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Locomotive\Footsteps\Water\Footsteps_Water_1		124852
 

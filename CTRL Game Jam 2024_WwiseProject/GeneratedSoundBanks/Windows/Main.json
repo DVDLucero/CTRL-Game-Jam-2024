@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{61CCFF80-7E7D-446D-AC5E-6D7ECED32A85}",
     "Language": "SFX",
-    "Hash": "{9DB83676-73EE-8097-5452-61AD6D2BC43E}",
+    "Hash": "{6BC1E66D-38A8-3379-4CC4-B8E5AD9DF3D1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -205,7 +205,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "561896__mattruthsound__liquid-pour-splash-stream-water-with-bottle-slosh_96khz_mono_zoomh4n_nt5-001.wav",
-      "CachePath": "84/{8445EC4C-1D8C-E97B-1717-932474578356}.wem"
+      "CachePath": "60/{60789B6F-437E-A2FD-04CA-997F20911A5C}.wem"
      },
      {
       "Id": "1048546360",
@@ -287,8 +287,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Misc\\play_collect_water",
       "GUID": "{DEAE877E-8F47-426B-9CEF-E976CD8BF20B}",
       "DurationType": "OneShot",
-      "DurationMin": "7.0974374",
-      "DurationMax": "7.0974374",
+      "DurationMin": "1.944822",
+      "DurationMax": "1.944822",
       "MediaRefs": [
        {
         "Id": "1041466849"
@@ -574,6 +574,6 @@
     ]
    }
   ],
-  "FileHash": "{A6CE186B-6D71-C28A-9D00-042B400B2C66}"
+  "FileHash": "{76C6B177-E895-B210-D971-5B462A6D5852}"
  }
 }

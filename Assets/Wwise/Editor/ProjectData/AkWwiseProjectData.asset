@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: f0e15cf625683c4eafb3e4ed7da64de6
     GuidInternal: 
-    m_lastTime: -8584698431028196194
+    m_lastTime: -8584697626571359703
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 6b5faf6fd098684981996a4f63268c43
     GuidInternal: 
-    m_lastTime: -8584698431037873335
+    m_lastTime: -8584697626590505375
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: a03d8249d90a45459433ec02aafc2038
     GuidInternal: 
-    m_lastTime: -8584697682425217868
+    m_lastTime: -8584697626571377778
     List:
     - name: Main
       guid: 80ffcc617d7e6d44ac5e6d7eced32a85
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: a03665609e90c5468abcfe9fe0d56cb1
     GuidInternal: 
-    m_lastTime: -8584697682820577681
+    m_lastTime: -8584697626601783486
     List:
     - name: Animals
       guid: c45b2dcd747ed542bd486e649bea865c
@@ -239,8 +239,8 @@ MonoBehaviour:
         guid: 354a65bf1580934abcaf8f32770defa8
       Path: Events/Default Work Unit/Animals/play_camel_grunt
       maxAttenuation: 0
-      maxDuration: 1.93
-      minDuration: 1.93
+      maxDuration: -1
+      minDuration: -1
     - name: play_coin_pickup
       guid: 0beb1edb082b474ba8a3859c1472d40c
       id: 3615788468
@@ -259,8 +259,8 @@ MonoBehaviour:
         guid: 0beb1edb082b474ba8a3859c1472d40c
       Path: Events/Default Work Unit/Misc/play_coin_pickup
       maxAttenuation: 0
-      maxDuration: 0.44902083
-      minDuration: 0.44902083
+      maxDuration: -1
+      minDuration: -1
     - name: play_collect_fruit
       guid: 75115f5b8cd26346a948a24143ac4150
       id: 726221595
@@ -339,8 +339,8 @@ MonoBehaviour:
         guid: 1abd7dda4a1a2c4bba1b23b922147c67
       Path: Events/Default Work Unit/Locomotive/play_footsteps_donkey
       maxAttenuation: 0
-      maxDuration: 0.6009167
-      minDuration: 0.49158335
+      maxDuration: -1
+      minDuration: -1
     - name: play_footsteps_player
       guid: 50a8486a6d5f6442953f0116be348d1c
       id: 3044539581
@@ -359,8 +359,8 @@ MonoBehaviour:
         guid: 50a8486a6d5f6442953f0116be348d1c
       Path: Events/Default Work Unit/Locomotive/play_footsteps_player
       maxAttenuation: 0
-      maxDuration: 1.243016
-      minDuration: 0.30841666
+      maxDuration: -1
+      minDuration: -1
     - name: play_music_arabic_active
       guid: e2c9f8bef83bfb4487cf59f3d34382c1
       id: 2195648383
@@ -379,8 +379,8 @@ MonoBehaviour:
         guid: e2c9f8bef83bfb4487cf59f3d34382c1
       Path: Events/Default Work Unit/Music/play_music_arabic_active
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: play_music_arabic_calm
       guid: 5f49460d13406a498502973f550d8325
       id: 1685763040
@@ -399,8 +399,8 @@ MonoBehaviour:
         guid: 5f49460d13406a498502973f550d8325
       Path: Events/Default Work Unit/Music/play_music_arabic_calm
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: play_sword_hit
       guid: 7b8a57f34e7ee54b9b014a42be51a956
       id: 2694840227
@@ -419,8 +419,8 @@ MonoBehaviour:
         guid: 7b8a57f34e7ee54b9b014a42be51a956
       Path: Events/Default Work Unit/Misc/play_sword_hit
       maxAttenuation: 0
-      maxDuration: 1.8346666
-      minDuration: 1.8346666
+      maxDuration: -1
+      minDuration: -1
     - name: play_sword_miss
       guid: ced97fd0a42c8a41a243d2a02610b96f
       id: 977019804
@@ -439,8 +439,8 @@ MonoBehaviour:
         guid: ced97fd0a42c8a41a243d2a02610b96f
       Path: Events/Default Work Unit/Misc/play_sword_miss
       maxAttenuation: 0
-      maxDuration: 0.72533333
-      minDuration: 0.72533333
+      maxDuration: -1
+      minDuration: -1
     - name: play_voice_line_2
       guid: e50abcb550e2d7419d0cc81668b823f5
       id: 1618170554
@@ -516,8 +516,8 @@ MonoBehaviour:
         guid: 01f12fc7a8a5394ab6da0b78f85fb580
       Path: Events/Default Work Unit/Music/stop_music_all
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: test
       guid: c6e46a0868c1bc47a9e051cdd30225b4
       id: 3157003241
@@ -550,7 +550,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 6d71869eb212024987fddba3f0f50e7f
     GuidInternal: 
-    m_lastTime: -8584698431037924553
+    m_lastTime: -8584697626601775353
     List: []
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
@@ -564,7 +564,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: f71c199085867a42acbf06cd0db3d030
     GuidInternal: 
-    m_lastTime: -8584698414447087292
+    m_lastTime: -8584697626571368492
     List:
     - name: Player_State
       guid: da891718035d984d84d14fad63b2d949
@@ -644,7 +644,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: c5e938a99fff2b469092bb372acd8a90
     GuidInternal: 
-    m_lastTime: -8584698431028204078
+    m_lastTime: -8584697626571365480
     List:
     - name: Ground
       guid: c5dc9e9eccfcd34297104fda37f9ffa5
@@ -756,7 +756,7 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: 14421e3a09c59545a0f7d4f7c397e8c3
     GuidInternal: 
-    m_lastTime: -8584698431028200014
+    m_lastTime: -8584697626571362412
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000001000000011000000120000001400000015000000

@@ -20,7 +20,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e378b12f60e6b408da681503ef88d029, type: 2}
   InvalidReferencePlatforms: []
   UserSettings:
-    m_BasePath: Audio\GeneratedSoundBanks
+    m_BasePath: Audio/GeneratedSoundBanks
     m_StartupLanguage: English(US)
     m_EngineLogging: 1
     m_IsDecodedBankEnabled: 0

@@ -882,7 +882,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>1</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -896,6 +896,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="561896__mattruthsound__liquid-pour-splash-stream-water-with-bottle-slosh_96khz_mono_zoomh4n_nt5-001" ID="{1D506F23-4BB9-4100-AEA0-BA1CB7746DA4}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.426156174668058"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.94482193355894"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>561896__mattruthsound__liquid-pour-splash-stream-water-with-bottle-slosh_96khz_mono_zoomh4n_nt5-001.wav</AudioFile>
 									<MediaIDList>
@@ -933,7 +938,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
