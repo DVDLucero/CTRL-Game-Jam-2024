@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
     private Animator _animator;
     private Vector3 _moveDir;
     private float _speedMultiplier = 1.5f;
+
+    private float x;
+    float y;
     
     void Start()
     {
@@ -21,14 +24,15 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        
+        x = Input.GetAxis("Horizontal");
+        y = Input.GetAxis("Vertical");
     }
     void FixedUpdate()
     {
         
         RaycastHit hit;
         Vector3 castPos = transform.position;
-        /*if (Physics.Raycast(castPos, -transform.up, out hit, Mathf.Infinity, terrainLayer))
+        if (Physics.Raycast(castPos, -transform.up, out hit, terrainLayer))
         {
             if (hit.collider != null)
             {
@@ -37,10 +41,9 @@ public class PlayerController : MonoBehaviour
                 transform.position = movePos;
             }
         }
-        */
         
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
+        
+         
             
         _moveDir = new Vector3(x,rb.velocity.y, y);
         rb.velocity = _moveDir * speed;
