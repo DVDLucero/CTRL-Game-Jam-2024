@@ -116,7 +116,22 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Player" ID="{120099AE-C48F-4228-8284-A14B0BDC5242}" ShortID="790293178"/>
+				<Folder Name="Player" ID="{120099AE-C48F-4228-8284-A14B0BDC5242}" ShortID="790293178">
+					<ChildrenList>
+						<Event Name="play_voice_line_2" ID="{B5BC0AE5-E250-41D7-9D0C-C81668B823F5}">
+							<ChildrenList>
+								<Action Name="" ID="{8896418F-B0B6-4E62-9593-B8697D852FCF}" ShortID="514413160">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Arabic Line 2 Reverb 1" ID="{FC7B0787-E50B-49B9-9A4C-3BD6DE7C3C71}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="test" ID="{086AE4C6-C168-47BC-A9E0-51CDD30225B4}"/>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Animals" ID="{CD2D5BC4-7E74-42D5-BD48-6E649BEA865C}" ShortID="409723691">
 					<ChildrenList>
 						<Event Name="play_camel_grunt" ID="{BF654A35-8015-4A93-BCAF-8F32770DEFA8}">
@@ -136,6 +151,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Donkey Bray" ID="{D2F69E25-83C2-4DEA-957C-A94B5C3C2D46}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_bird_doppler" ID="{204D55E7-B353-4006-91DC-8AC581896B40}">
+							<ChildrenList>
+								<Action Name="" ID="{D3F72D8D-1D71-4932-8728-4E93295CA7F6}" ShortID="183267000">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="bird doppler" ID="{5F7BC290-B548-4769-A732-DF40970B2E19}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

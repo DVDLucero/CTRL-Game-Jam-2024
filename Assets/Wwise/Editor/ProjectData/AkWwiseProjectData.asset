@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: a03d8249d90a45459433ec02aafc2038
     GuidInternal: 
-    m_lastTime: -8584698301460018266
+    m_lastTime: -8584697682425217868
     List:
     - name: Main
       guid: 80ffcc617d7e6d44ac5e6d7eced32a85
@@ -94,11 +94,11 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: a03665609e90c5468abcfe9fe0d56cb1
     GuidInternal: 
-    m_lastTime: -8584698293477291496
+    m_lastTime: -8584697682820577681
     List:
-    - name: Camel
+    - name: Animals
       guid: c45b2dcd747ed542bd486e649bea865c
-      id: 4235322293
+      id: 949388280
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,10 +106,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: a03665609e90c5468abcfe9fe0d56cb1
-      - ElementName: Camel
+      - ElementName: Animals
         ObjectType: 4
         guid: c45b2dcd747ed542bd486e649bea865c
-      Path: Events/Default Work Unit/Camel
+      Path: Events/Default Work Unit/Animals
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -181,9 +181,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: play_ambient_desert_city
+    - name: play_ambient_desert
       guid: d092f63bb03f0c45b0a1935ccb12ab5e
-      id: 2001303348
+      id: 3290117370
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -194,10 +194,30 @@ MonoBehaviour:
       - ElementName: Environment
         ObjectType: 4
         guid: 76f9cbd666483a44984906ec724f91ba
-      - ElementName: play_ambient_desert_city
+      - ElementName: play_ambient_desert
         ObjectType: 3
         guid: d092f63bb03f0c45b0a1935ccb12ab5e
-      Path: Events/Default Work Unit/Environment/play_ambient_desert_city
+      Path: Events/Default Work Unit/Environment/play_ambient_desert
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_bird_doppler
+      guid: e7554d2053b3064091dc8ac581896b40
+      id: 1878271206
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a03665609e90c5468abcfe9fe0d56cb1
+      - ElementName: Animals
+        ObjectType: 4
+        guid: c45b2dcd747ed542bd486e649bea865c
+      - ElementName: play_bird_doppler
+        ObjectType: 3
+        guid: e7554d2053b3064091dc8ac581896b40
+      Path: Events/Default Work Unit/Animals/play_bird_doppler
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -211,16 +231,96 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: a03665609e90c5468abcfe9fe0d56cb1
-      - ElementName: Camel
+      - ElementName: Animals
         ObjectType: 4
         guid: c45b2dcd747ed542bd486e649bea865c
       - ElementName: play_camel_grunt
         ObjectType: 3
         guid: 354a65bf1580934abcaf8f32770defa8
-      Path: Events/Default Work Unit/Camel/play_camel_grunt
+      Path: Events/Default Work Unit/Animals/play_camel_grunt
       maxAttenuation: 0
       maxDuration: 1.93
       minDuration: 1.93
+    - name: play_coin_pickup
+      guid: 0beb1edb082b474ba8a3859c1472d40c
+      id: 3615788468
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a03665609e90c5468abcfe9fe0d56cb1
+      - ElementName: Misc
+        ObjectType: 4
+        guid: 5c80087771956442bab0e9f348b4a3d4
+      - ElementName: play_coin_pickup
+        ObjectType: 3
+        guid: 0beb1edb082b474ba8a3859c1472d40c
+      Path: Events/Default Work Unit/Misc/play_coin_pickup
+      maxAttenuation: 0
+      maxDuration: 0.44902083
+      minDuration: 0.44902083
+    - name: play_collect_fruit
+      guid: 75115f5b8cd26346a948a24143ac4150
+      id: 726221595
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a03665609e90c5468abcfe9fe0d56cb1
+      - ElementName: Misc
+        ObjectType: 4
+        guid: 5c80087771956442bab0e9f348b4a3d4
+      - ElementName: play_collect_fruit
+        ObjectType: 3
+        guid: 75115f5b8cd26346a948a24143ac4150
+      Path: Events/Default Work Unit/Misc/play_collect_fruit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_collect_water
+      guid: 7e87aede478f6b429cefe976cd8bf20b
+      id: 4174973952
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a03665609e90c5468abcfe9fe0d56cb1
+      - ElementName: Misc
+        ObjectType: 4
+        guid: 5c80087771956442bab0e9f348b4a3d4
+      - ElementName: play_collect_water
+        ObjectType: 3
+        guid: 7e87aede478f6b429cefe976cd8bf20b
+      Path: Events/Default Work Unit/Misc/play_collect_water
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_donkey_bray
+      guid: ef8d799458ba9e479440e2b37cf03d3e
+      id: 2312358071
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a03665609e90c5468abcfe9fe0d56cb1
+      - ElementName: Animals
+        ObjectType: 4
+        guid: c45b2dcd747ed542bd486e649bea865c
+      - ElementName: play_donkey_bray
+        ObjectType: 3
+        guid: ef8d799458ba9e479440e2b37cf03d3e
+      Path: Events/Default Work Unit/Animals/play_donkey_bray
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: play_footsteps_donkey
       guid: 1abd7dda4a1a2c4bba1b23b922147c67
       id: 572876586
@@ -261,26 +361,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.243016
       minDuration: 0.30841666
-    - name: play_item_pickup
-      guid: 0beb1edb082b474ba8a3859c1472d40c
-      id: 2652605998
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a03665609e90c5468abcfe9fe0d56cb1
-      - ElementName: Misc
-        ObjectType: 4
-        guid: 5c80087771956442bab0e9f348b4a3d4
-      - ElementName: play_item_pickup
-        ObjectType: 3
-        guid: 0beb1edb082b474ba8a3859c1472d40c
-      Path: Events/Default Work Unit/Misc/play_item_pickup
-      maxAttenuation: 0
-      maxDuration: 0.44902083
-      minDuration: 0.44902083
     - name: play_music_arabic_active
       guid: e2c9f8bef83bfb4487cf59f3d34382c1
       id: 2195648383
@@ -361,6 +441,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.72533333
       minDuration: 0.72533333
+    - name: play_voice_line_2
+      guid: e50abcb550e2d7419d0cc81668b823f5
+      id: 1618170554
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a03665609e90c5468abcfe9fe0d56cb1
+      - ElementName: Player
+        ObjectType: 4
+        guid: ae9900128fc428428284a14b0bdc5242
+      - ElementName: play_voice_line_2
+        ObjectType: 3
+        guid: e50abcb550e2d7419d0cc81668b823f5
+      Path: Events/Default Work Unit/Player/play_voice_line_2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Player
       guid: ae9900128fc428428284a14b0bdc5242
       id: 1069431850
@@ -378,9 +478,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: stop_ambient_desert_city
+    - name: stop_ambient_desert
       guid: e2afd9544416eb4ca0107163dabfcc89
-      id: 1466305114
+      id: 1710138932
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -391,10 +491,10 @@ MonoBehaviour:
       - ElementName: Environment
         ObjectType: 4
         guid: 76f9cbd666483a44984906ec724f91ba
-      - ElementName: stop_ambient_desert_city
+      - ElementName: stop_ambient_desert
         ObjectType: 3
         guid: e2afd9544416eb4ca0107163dabfcc89
-      Path: Events/Default Work Unit/Environment/stop_ambient_desert_city
+      Path: Events/Default Work Unit/Environment/stop_ambient_desert
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -418,6 +518,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: test
+      guid: c6e46a0868c1bc47a9e051cdd30225b4
+      id: 3157003241
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a03665609e90c5468abcfe9fe0d56cb1
+      - ElementName: Player
+        ObjectType: 4
+        guid: ae9900128fc428428284a14b0bdc5242
+      - ElementName: test
+        ObjectType: 3
+        guid: c6e46a0868c1bc47a9e051cdd30225b4
+      Path: Events/Default Work Unit/Player/test
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -639,7 +759,7 @@ MonoBehaviour:
     m_lastTime: -8584698431028200014
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000b0000000c0000000e0000001000000011000000120000001400000015000000
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000001000000011000000120000001400000015000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

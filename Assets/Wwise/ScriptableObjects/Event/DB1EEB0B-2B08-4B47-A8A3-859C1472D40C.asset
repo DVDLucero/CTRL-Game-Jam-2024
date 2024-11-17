@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e5b1b318a094a7a8adaab48ef12413, type: 3}
   m_Name: DB1EEB0B-2B08-4B47-A8A3-859C1472D40C
   m_EditorClassIdentifier: 
-  objectName: play_item_pickup
-  id: 2652605998
+  objectName: play_coin_pickup
+  id: 3615788468
   guid: DB1EEB0B-2B08-4B47-A8A3-859C1472D40C
   IsInUserDefinedSoundBank: 1
   IsAutoBankLoaded: 0

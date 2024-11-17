@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{61CCFF80-7E7D-446D-AC5E-6D7ECED32A85}",
     "Language": "SFX",
-    "Hash": "{FE636610-31CD-0510-9D98-9847EC379018}",
+    "Hash": "{9DB83676-73EE-8097-5452-61AD6D2BC43E}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "8305186",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "arabic_voice_line_2 Reverb _1.wav",
+      "CachePath": "80/{80ADE69A-0C2E-87FE-F07C-CA58C2C6A26E}.wem"
+     },
      {
       "Id": "26149915",
       "Language": "SFX",
@@ -96,6 +104,14 @@
       "CachePath": "9B/{9B7FC57E-3921-21D0-1C1D-E8B2A3821C35}.wem"
      },
      {
+      "Id": "611676979",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "07035004.wav",
+      "CachePath": "15/{15F1BEEC-F008-ED29-B2D0-E49A6597CD20}.wem"
+     },
+     {
       "Id": "622770812",
       "Language": "SFX",
       "Streaming": "false",
@@ -110,6 +126,14 @@
       "Location": "Memory",
       "ShortName": "ANIMAL WILD Camel A, Grunt, Groan, Roar x13.wav 12.wav",
       "CachePath": "40/{40540729-0C78-00A1-6335-BAA84A7F76BC}.wem"
+     },
+     {
+      "Id": "713501827",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TonalWind_Atmo_FluteLikeRoughMids_HeavyBlow _Mono.wav",
+      "CachePath": "16/{16051029-3CC0-DD93-A8F9-5E722F9026A8}.wem"
      },
      {
       "Id": "729752450",
@@ -168,6 +192,22 @@
       "CachePath": "57/{57CA5564-EE4F-058A-0FC5-E658447280AF}.wem"
      },
      {
+      "Id": "1009620589",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GOREFlsh_Fruit Vegetable Impacts 03_PSE_OS_RDEHk.wav",
+      "CachePath": "61/{6146F031-C6A7-0C9A-97CA-2AA61FDB1D41}.wem"
+     },
+     {
+      "Id": "1041466849",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "561896__mattruthsound__liquid-pour-splash-stream-water-with-bottle-slosh_96khz_mono_zoomh4n_nt5-001.wav",
+      "CachePath": "84/{8445EC4C-1D8C-E97B-1717-932474578356}.wem"
+     },
+     {
       "Id": "1048546360",
       "Language": "SFX",
       "Streaming": "false",
@@ -185,6 +225,20 @@
      }
     ],
     "Events": [
+     {
+      "Id": "3290117370",
+      "Name": "play_ambient_desert",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\play_ambient_desert",
+      "GUID": "{3BF692D0-3FB0-450C-B0A1-935CCB12AB5E}",
+      "DurationType": "OneShot",
+      "DurationMin": "138.13733",
+      "DurationMax": "138.13733",
+      "MediaRefs": [
+       {
+        "Id": "713501827"
+       }
+      ]
+     },
      {
       "Id": "3707039655",
       "Name": "play_camel_grunt",
@@ -210,6 +264,48 @@
       "MediaRefs": [
        {
         "Id": "320881983"
+       }
+      ]
+     },
+     {
+      "Id": "726221595",
+      "Name": "play_collect_fruit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Misc\\play_collect_fruit",
+      "GUID": "{5B5F1175-D28C-4663-A948-A24143AC4150}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.93030643",
+      "DurationMax": "0.93030643",
+      "MediaRefs": [
+       {
+        "Id": "1009620589"
+       }
+      ]
+     },
+     {
+      "Id": "4174973952",
+      "Name": "play_collect_water",
+      "ObjectPath": "\\Events\\Default Work Unit\\Misc\\play_collect_water",
+      "GUID": "{DEAE877E-8F47-426B-9CEF-E976CD8BF20B}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.0974374",
+      "DurationMax": "7.0974374",
+      "MediaRefs": [
+       {
+        "Id": "1041466849"
+       }
+      ]
+     },
+     {
+      "Id": "2312358071",
+      "Name": "play_donkey_bray",
+      "ObjectPath": "\\Events\\Default Work Unit\\Animals\\play_donkey_bray",
+      "GUID": "{94798DEF-BA58-479E-9440-E2B37CF03D3E}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.2537994",
+      "DurationMax": "2.2537994",
+      "MediaRefs": [
+       {
+        "Id": "611676979"
        }
       ]
      },
@@ -402,6 +498,30 @@
       ]
      },
      {
+      "Id": "1618170554",
+      "Name": "play_voice_line_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\play_voice_line_2",
+      "GUID": "{B5BC0AE5-E250-41D7-9D0C-C81668B823F5}",
+      "DurationType": "OneShot",
+      "DurationMin": "30.24898",
+      "DurationMax": "30.24898",
+      "MediaRefs": [
+       {
+        "Id": "8305186"
+       }
+      ]
+     },
+     {
+      "Id": "1710138932",
+      "Name": "stop_ambient_desert",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\stop_ambient_desert",
+      "GUID": "{54D9AFE2-1644-4CEB-A010-7163DABFCC89}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "1369021357",
       "Name": "stop_music_all",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\stop_music_all",
@@ -454,6 +574,6 @@
     ]
    }
   ],
-  "FileHash": "{9CEB00EA-4B9C-B1D9-3504-41B054148344}"
+  "FileHash": "{A6CE186B-6D71-C28A-9D00-042B400B2C66}"
  }
 }

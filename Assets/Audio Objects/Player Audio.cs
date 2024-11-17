@@ -22,11 +22,17 @@ public class PlayerAudio : MonoBehaviour
         pickupWater.Post(player);
     }   
 
+    public AK.Wwise.Event pickupCoin;
+    public void PlayCollectCoin() {
+        pickupCoin.Post(player);
+    }
+
+    public AK.Wwise.Event pickupFruit;
+    public void PlayCollectFruit() {
+        pickupFruit.Post(player);
+    }   
+    
 //Add Different Pickup types.
-    // public AK.Wwise.Event pickupWater;
-    // public void PlayCollectWater() {
-    //     pickupWater.Post(player);
-    // }   
     // public AK.Wwise.Event pickupWater;
     // public void PlayCollectWater() {
     //     pickupWater.Post(player);
