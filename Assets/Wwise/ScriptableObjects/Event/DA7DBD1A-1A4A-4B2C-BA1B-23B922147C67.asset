@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3e5b1b318a094a7a8adaab48ef12413, type: 3}
+  m_Name: DA7DBD1A-1A4A-4B2C-BA1B-23B922147C67
+  m_EditorClassIdentifier: 
+  objectName: play_footsteps_donkey
+  id: 572876586
+  guid: DA7DBD1A-1A4A-4B2C-BA1B-23B922147C67
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

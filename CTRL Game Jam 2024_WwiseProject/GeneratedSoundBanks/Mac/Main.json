@@ -10,12 +10,450 @@
     "Type": "User",
     "GUID": "{61CCFF80-7E7D-446D-AC5E-6D7ECED32A85}",
     "Language": "SFX",
-    "Hash": "{11CE3D2C-B4A2-49DB-D6D7-5BEFB7DE3069}",
+    "Hash": "{ADE25D6A-8BD9-4307-A770-851DBACE89CE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
-    "Path": "Main.bnk"
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "26149915",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Snow Footstep 2.wav",
+      "CachePath": "0D/{0D6E7815-0817-219A-E309-465C68B49B8C}.wem"
+     },
+     {
+      "Id": "50728134",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "hoofsteps_gravel_1.wav",
+      "CachePath": "68/{688810AF-AF66-F8B7-3707-B1F4EAEEF82C}.wem"
+     },
+     {
+      "Id": "167975413",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footstep 3.wav",
+      "CachePath": "00/{0005647E-4F9F-67C4-372B-1AC37A02D1BB}.wem"
+     },
+     {
+      "Id": "246559958",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Machete_Wet_Impact_ODY-1628-072.wav",
+      "CachePath": "84/{84EA473A-6637-780B-8883-E4800CC9B651}.wem"
+     },
+     {
+      "Id": "320881983",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "336582__anthousai__coins-in-paper-bowl-03.wav",
+      "CachePath": "F7/{F755F42E-7A41-C23D-BC19-FE91E7FF266A}.wem"
+     },
+     {
+      "Id": "332660438",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Arabic Music Calm.wav",
+      "CachePath": "62/{62CB5E4B-ED26-AF7E-5BCA-11B9D437B0A2}.wem"
+     },
+     {
+      "Id": "335674132",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "hoofsteps_gravel_2.wav",
+      "CachePath": "DB/{DB24EA68-2A2A-7BED-62BF-4B2C8781529F}.wem"
+     },
+     {
+      "Id": "497425543",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "hoofsteps_gravel_3.wav",
+      "CachePath": "7D/{7DEB3E3E-E923-D7C5-F9D7-D66D727842A4}.wem"
+     },
+     {
+      "Id": "554899032",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Snow Footstep 3.wav",
+      "CachePath": "38/{38AD1943-EF66-6881-C6EE-CF51538CEB86}.wem"
+     },
+     {
+      "Id": "599747107",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "0014_Footsteps_water_puddle_single_splashes.wav",
+      "CachePath": "57/{57CA5564-EE4F-058A-0FC5-E658447280AF}.wem"
+     },
+     {
+      "Id": "622770812",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Snow Footstep 1.wav",
+      "CachePath": "CB/{CBE2F24F-2D36-8144-6C86-E3092C5EDE44}.wem"
+     },
+     {
+      "Id": "624592409",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ANIMAL WILD Camel A, Grunt, Groan, Roar x13.wav 12.wav",
+      "CachePath": "40/{40540729-0C78-00A1-6335-BAA84A7F76BC}.wem"
+     },
+     {
+      "Id": "729752450",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footstep 2.wav",
+      "CachePath": "75/{75C669BB-C401-0C8F-EF1A-09091BB205C6}.wem"
+     },
+     {
+      "Id": "771880888",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footstep 4.wav",
+      "CachePath": "F1/{F1FBC076-A5C4-DF60-4B60-888872005B05}.wem"
+     },
+     {
+      "Id": "814689027",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "hoofsteps_gravel_4.wav",
+      "CachePath": "70/{7004EB55-E946-0191-0ADB-2612BAA04F35}.wem"
+     },
+     {
+      "Id": "894006218",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footstep 1.wav",
+      "CachePath": "9E/{9E5A9EDA-42A8-75EC-3A07-CA28F65E6B15}.wem"
+     },
+     {
+      "Id": "920033310",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "0014_Footsteps_water_puddle_single_splashes.wav",
+      "CachePath": "16/{16197295-200D-D91C-F882-86E06BF000B9}.wem"
+     },
+     {
+      "Id": "925353560",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Arabic Music Active.wav",
+      "CachePath": "D3/{D332B1AB-D41C-FE22-6791-8E11FD951D15}.wem"
+     },
+     {
+      "Id": "978542948",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "0014_Footsteps_water_puddle_single_splashes.wav",
+      "CachePath": "D9/{D932F626-4A0A-D98C-FAAE-0DEEB142A750}.wem"
+     },
+     {
+      "Id": "1048546360",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Machete_Fast_ODY-1628-067.wav",
+      "CachePath": "F3/{F337520C-81B4-DA8B-D605-1345B3F5A90C}.wem"
+     },
+     {
+      "Id": "1059251377",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "0014_Footsteps_water_puddle_single_splashes.wav",
+      "CachePath": "9B/{9B7FC57E-3921-21D0-1C1D-E8B2A3821C35}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3707039655",
+      "Name": "play_camel_grunt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Animals\\play_camel_grunt",
+      "GUID": "{BF654A35-8015-4A93-BCAF-8F32770DEFA8}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.93",
+      "DurationMax": "1.93",
+      "MediaRefs": [
+       {
+        "Id": "624592409"
+       }
+      ]
+     },
+     {
+      "Id": "3615788468",
+      "Name": "play_coin_pickup",
+      "ObjectPath": "\\Events\\Default Work Unit\\Misc\\play_coin_pickup",
+      "GUID": "{DB1EEB0B-2B08-4B47-A8A3-859C1472D40C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.44902083",
+      "DurationMax": "0.44902083",
+      "MediaRefs": [
+       {
+        "Id": "320881983"
+       }
+      ]
+     },
+     {
+      "Id": "572876586",
+      "Name": "play_footsteps_donkey",
+      "ObjectPath": "\\Events\\Default Work Unit\\Locomotive\\play_footsteps_donkey",
+      "GUID": "{DA7DBD1A-1A4A-4B2C-BA1B-23B922147C67}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.49158335",
+      "DurationMax": "0.6009167",
+      "MediaRefs": [
+       {
+        "Id": "50728134"
+       },
+       {
+        "Id": "335674132"
+       },
+       {
+        "Id": "497425543"
+       },
+       {
+        "Id": "814689027"
+       }
+      ]
+     },
+     {
+      "Id": "3044539581",
+      "Name": "play_footsteps_player",
+      "ObjectPath": "\\Events\\Default Work Unit\\Locomotive\\play_footsteps_player",
+      "GUID": "{6A48A850-5F6D-4264-953F-0116BE348D1C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.30841666",
+      "DurationMax": "1.243016",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2528658256",
+         "Id": "2185786256",
+         "GUID": "{8C55C81F-8A25-43B2-A8D7-C79D3E1A558D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "26149915"
+         },
+         {
+          "Id": "554899032"
+         },
+         {
+          "Id": "622770812"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2528658256",
+         "Id": "803837735",
+         "GUID": "{488A2423-81CA-43CE-8315-ADEE29C90B94}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "26149915"
+         },
+         {
+          "Id": "554899032"
+         },
+         {
+          "Id": "622770812"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2528658256",
+         "Id": "1216965916",
+         "GUID": "{C15AD34D-2C94-4A62-B15C-A02CBB0E845D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "26149915"
+         },
+         {
+          "Id": "554899032"
+         },
+         {
+          "Id": "622770812"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2528658256",
+         "Id": "4248645337",
+         "GUID": "{6DD1B26C-0B37-484B-A71E-8C5B04F07547}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "167975413"
+         },
+         {
+          "Id": "729752450"
+         },
+         {
+          "Id": "771880888"
+         },
+         {
+          "Id": "894006218"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2528658256",
+         "Id": "2654748154",
+         "GUID": "{76EBA3F3-4682-4B8E-B018-9F02B4A9615E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "599747107"
+         },
+         {
+          "Id": "920033310"
+         },
+         {
+          "Id": "978542948"
+         },
+         {
+          "Id": "1059251377"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2195648383",
+      "Name": "play_music_arabic_active",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\play_music_arabic_active",
+      "GUID": "{BEF8C9E2-3BF8-44FB-87CF-59F3D34382C1}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "925353560"
+       }
+      ]
+     },
+     {
+      "Id": "1685763040",
+      "Name": "play_music_arabic_calm",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\play_music_arabic_calm",
+      "GUID": "{0D46495F-4013-496A-8502-973F550D8325}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "332660438"
+       }
+      ]
+     },
+     {
+      "Id": "2694840227",
+      "Name": "play_sword_hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Misc\\play_sword_hit",
+      "GUID": "{F3578A7B-7E4E-4BE5-9B01-4A42BE51A956}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8346666",
+      "DurationMax": "1.8346666",
+      "MediaRefs": [
+       {
+        "Id": "246559958"
+       }
+      ]
+     },
+     {
+      "Id": "977019804",
+      "Name": "play_sword_miss",
+      "ObjectPath": "\\Events\\Default Work Unit\\Misc\\play_sword_miss",
+      "GUID": "{D07FD9CE-2CA4-418A-A243-D2A02610B96F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.72533333",
+      "DurationMax": "0.72533333",
+      "MediaRefs": [
+       {
+        "Id": "1048546360"
+       }
+      ]
+     },
+     {
+      "Id": "1369021357",
+      "Name": "stop_music_all",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\stop_music_all",
+      "GUID": "{C72FF101-A5A8-4A39-B6DA-0B78F85FB580}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2528658256",
+      "Name": "Ground",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Ground",
+      "GUID": "{9E9EDCC5-FCCC-42D3-9710-4FDA37F9FFA5}",
+      "Switches": [
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground\\Sand",
+        "GUID": "{488A2423-81CA-43CE-8315-ADEE29C90B94}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground\\Stone",
+        "GUID": "{C15AD34D-2C94-4A62-B15C-A02CBB0E845D}"
+       },
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground\\Gravel",
+        "GUID": "{8C55C81F-8A25-43B2-A8D7-C79D3E1A558D}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground\\Water",
+        "GUID": "{76EBA3F3-4682-4B8E-B018-9F02B4A9615E}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ground\\Grass",
+        "GUID": "{6DD1B26C-0B37-484B-A71E-8C5B04F07547}"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{FFF045DF-67DC-1013-6904-A09DD0C37E9B}"
+  "FileHash": "{AF9031A1-929F-F258-966E-5918BE41AA83}"
  }
 }

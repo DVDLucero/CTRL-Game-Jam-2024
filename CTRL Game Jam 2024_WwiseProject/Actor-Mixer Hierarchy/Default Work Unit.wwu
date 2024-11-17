@@ -46,7 +46,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="Grass" ID="{6DD1B26C-0B37-484B-A71E-8C5B04F07547}" WorkUnitID="{A938E9C5-FF9F-462B-9092-BB372ACD8A90}"/>
+									<ObjectRef Name="Sand" ID="{488A2423-81CA-43CE-8315-ADEE29C90B94}" WorkUnitID="{A938E9C5-FF9F-462B-9092-BB372ACD8A90}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
@@ -191,7 +191,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-1</Value>
+												<Value>5</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -336,7 +336,8 @@
 													<Language>SFX</Language>
 													<AudioFile>0014_Footsteps_water_puddle_single_splashes.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="920033310"/>
+														<MediaID ID="599747107"/>
+														<MediaID Platform="Mac" ID="1059251377"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -363,7 +364,8 @@
 													<Language>SFX</Language>
 													<AudioFile>0014_Footsteps_water_puddle_single_splashes.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="920033310"/>
+														<MediaID ID="978542948"/>
+														<MediaID Platform="Mac" ID="599747107"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -417,7 +419,8 @@
 													<Language>SFX</Language>
 													<AudioFile>0014_Footsteps_water_puddle_single_splashes.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="920033310"/>
+														<MediaID ID="1059251377"/>
+														<MediaID Platform="Mac" ID="978542948"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -450,7 +453,7 @@
 									<Grouping>
 										<SwitchRef Name="Gravel" ID="{8C55C81F-8A25-43B2-A8D7-C79D3E1A558D}"/>
 										<ItemList>
-											<ItemRef Name="Gravel" ID="{226D4449-9BD6-478A-918F-F83A2A39C21C}"/>
+											<ItemRef Name="Sand" ID="{4F392C40-258F-4018-913D-88BDE74A8CBD}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -462,7 +465,7 @@
 									<Grouping>
 										<SwitchRef Name="Stone" ID="{C15AD34D-2C94-4A62-B15C-A02CBB0E845D}"/>
 										<ItemList>
-											<ItemRef Name="Stone" ID="{29149384-4B38-4238-A335-669BD92152F7}"/>
+											<ItemRef Name="Sand" ID="{4F392C40-258F-4018-913D-88BDE74A8CBD}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -480,6 +483,106 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+						<RandomSequenceContainer Name="Hoofsteps" ID="{5B03A275-74B4-4CAB-BA77-EA28629F423F}" ShortID="417192211">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="hoofsteps_gravel_1" ID="{2299A19E-C39D-4A03-9E2D-038A0CF9BAB9}" ShortID="207012066">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hoofsteps_gravel_1" ID="{B13A0B07-2857-4252-AEB9-0F60AC3B03F8}">
+											<Language>SFX</Language>
+											<AudioFile>hoofsteps_gravel_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="50728134"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hoofsteps_gravel_1" ID="{B13A0B07-2857-4252-AEB9-0F60AC3B03F8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hoofsteps_gravel_2" ID="{7584EDD5-1066-4CE6-AA62-921F8EDA47B3}" ShortID="966200797">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hoofsteps_gravel_2" ID="{C1AB32DC-0A9A-4195-8614-8BBB6B78DEEB}">
+											<Language>SFX</Language>
+											<AudioFile>hoofsteps_gravel_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="335674132"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hoofsteps_gravel_2" ID="{C1AB32DC-0A9A-4195-8614-8BBB6B78DEEB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hoofsteps_gravel_3" ID="{700640A9-3C53-47C8-BD49-E0525895EB36}" ShortID="696079135">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hoofsteps_gravel_3" ID="{D172E429-53B5-4076-A1DB-4AE55F20E3E8}">
+											<Language>SFX</Language>
+											<AudioFile>hoofsteps_gravel_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="497425543"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hoofsteps_gravel_3" ID="{D172E429-53B5-4076-A1DB-4AE55F20E3E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hoofsteps_gravel_4" ID="{A686EE0F-D888-456C-8EF2-E3F2303E8B76}" ShortID="566863822">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hoofsteps_gravel_4" ID="{603F2C2F-3715-4E9F-9452-3B9C1D7DCD95}">
+											<Language>SFX</Language>
+											<AudioFile>hoofsteps_gravel_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="814689027"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hoofsteps_gravel_4" ID="{603F2C2F-3715-4E9F-9452-3B9C1D7DCD95}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="GUI" ID="{FA4644DB-C017-4879-85A7-473E9644DA3B}" ShortID="982891400"/>
@@ -557,10 +660,12 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Foley" ID="{D966E9FE-4616-4C39-A089-85107D26B7F0}" ShortID="457763097"/>
-				<Folder Name="Camel" ID="{9CFDEAF4-9E63-4559-A4FA-780AE168866B}" ShortID="228954642">
+				<Folder Name="Music" ID="{C076F13A-FA17-4FF3-98CC-44CD914B4583}" ShortID="211942826">
 					<ChildrenList>
-						<Sound Name="ANIMAL WILD Camel C, Grunt, Groan, Roar, Expressive x10_wav 05" ID="{BF258ADE-603D-4AA8-810E-3EBAD2FF481D}" ShortID="878174445">
+						<Sound Name="Arabic Music Active" ID="{7AF62EDC-1ACE-4642-8C57-D43CE6E8EC89}" ShortID="238904509">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
@@ -570,19 +675,28 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="ANIMAL WILD Camel C, Grunt, Groan, Roar, Expressive x10_wav 05" ID="{8D63E42D-9AF5-4447-BB3C-802875ED70E7}">
+								<AudioFileSource Name="Arabic Music Active" ID="{E1623193-9018-4B2A-830C-16C92E40D8CC}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.437220644222077"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.18610322111039"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="200.028452177889"/>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>ANIMAL WILD Camel C, Grunt, Groan, Roar, Expressive x10.wav 05.wav</AudioFile>
+									<AudioFile>Arabic Music Active.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="27251128"/>
+										<MediaID ID="925353560"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="ANIMAL WILD Camel C, Grunt, Groan, Roar, Expressive x10_wav 05" ID="{8D63E42D-9AF5-4447-BB3C-802875ED70E7}" Platform="Linked"/>
+								<ActiveSource Name="Arabic Music Active" ID="{E1623193-9018-4B2A-830C-16C92E40D8CC}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="ANIMAL WILD Camel A, Grunt, Groan, Roar x13_wav 12" ID="{649C6FD8-BA51-400B-AE51-24836B401CDE}" ShortID="629344099">
+						<Sound Name="Arabic Music Calm" ID="{F51B3C16-C6A8-4966-AAE3-A3DB0633795D}" ShortID="230324861">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
@@ -592,18 +706,287 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="ANIMAL WILD Camel A, Grunt, Groan, Roar x13_wav 12" ID="{9A8D80B5-EF89-4D45-888C-9E301BB3DA25}">
+								<AudioFileSource Name="Arabic Music Calm" ID="{1B3B0603-8EA4-416E-90DC-B98B6E33761F}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.556776763049796"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>ANIMAL WILD Camel A, Grunt, Groan, Roar x13.wav 12.wav</AudioFile>
+									<AudioFile>Arabic Music Calm.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="624592409"/>
+										<MediaID ID="332660438"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="ANIMAL WILD Camel A, Grunt, Groan, Roar x13_wav 12" ID="{9A8D80B5-EF89-4D45-888C-9E301BB3DA25}" Platform="Linked"/>
+								<ActiveSource Name="Arabic Music Calm" ID="{1B3B0603-8EA4-416E-90DC-B98B6E33761F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Misc" ID="{534C3ADE-25DC-45D0-ACC9-C7FA557403B6}" ShortID="597903636">
+					<ChildrenList>
+						<Sound Name="Sword Swing Miss" ID="{22CBE285-4504-49EA-B570-867A1143226A}" ShortID="953106971">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Machete_Fast_ODY-1628-067" ID="{68B0AA73-240A-42C3-A984-6A1528BEA516}">
+									<Language>SFX</Language>
+									<AudioFile>Machete_Fast_ODY-1628-067.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1048546360"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Machete_Fast_ODY-1628-067" ID="{68B0AA73-240A-42C3-A984-6A1528BEA516}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sword Swing Hit" ID="{96D79910-5BD7-4AB1-82A2-5A21A0ACA2B9}" ShortID="965355525">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Machete_Wet_Impact_ODY-1628-072" ID="{F4D2D997-5291-4290-A70E-A4F12FB88B83}">
+									<Language>SFX</Language>
+									<AudioFile>Machete_Wet_Impact_ODY-1628-072.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="246559958"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Machete_Wet_Impact_ODY-1628-072" ID="{F4D2D997-5291-4290-A70E-A4F12FB88B83}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Coin Drop" ID="{A29B5EAD-495D-4142-BC62-203378E51F1A}" ShortID="732739454">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="336582__anthousai__coins-in-paper-bowl-03" ID="{AB6A7059-A88C-4C3C-96B6-0C834314D8E2}">
+									<Language>SFX</Language>
+									<AudioFile>336582__anthousai__coins-in-paper-bowl-03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="320881983"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="336582__anthousai__coins-in-paper-bowl-03" ID="{AB6A7059-A88C-4C3C-96B6-0C834314D8E2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pickup Coin Low 16bit" ID="{41237770-F6DE-4340-8183-29BC61A84531}" ShortID="1023918024">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pickup Coin Low 16bit" ID="{09A63386-2647-4802-96C5-F812F106737C}">
+									<Language>SFX</Language>
+									<AudioFile>Pickup Coin Low 16bit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="413891505"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="336582__anthousai__coins-in-paper-bowl-03" ID="{9B413B22-8D0D-4BE8-BE5A-092B6973DEC8}">
+									<Language>SFX</Language>
+									<AudioFile>336582__anthousai__coins-in-paper-bowl-03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="320881983"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="336582__anthousai__coins-in-paper-bowl-03" ID="{9B413B22-8D0D-4BE8-BE5A-092B6973DEC8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pouring Water" ID="{135F0981-C9BF-4639-971E-37FA1015132E}" ShortID="867496324">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="561896__mattruthsound__liquid-pour-splash-stream-water-with-bottle-slosh_96khz_mono_zoomh4n_nt5-001" ID="{1D506F23-4BB9-4100-AEA0-BA1CB7746DA4}">
+									<Language>SFX</Language>
+									<AudioFile>561896__mattruthsound__liquid-pour-splash-stream-water-with-bottle-slosh_96khz_mono_zoomh4n_nt5-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1041466849"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="561896__mattruthsound__liquid-pour-splash-stream-water-with-bottle-slosh_96khz_mono_zoomh4n_nt5-001" ID="{1D506F23-4BB9-4100-AEA0-BA1CB7746DA4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sloshing Water" ID="{C9D20FF2-81C0-47CB-8883-ABAF942D2BAA}" ShortID="534311133">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="water_splashing" ID="{9A73AE89-F82B-4961-8BF8-5CAB56F69D1C}">
+									<Language>SFX</Language>
+									<AudioFile>water_splashing.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="583260441"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="water_splashing" ID="{9A73AE89-F82B-4961-8BF8-5CAB56F69D1C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fruit Squish" ID="{45E034DA-944D-4F9F-A3B6-54EAF8C49D5A}" ShortID="481853528">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GOREFlsh_Fruit Vegetable Impacts 03_PSE_OS_RDEHk" ID="{15E4683D-B19E-43B9-A500-CAEAE135F054}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.124040753560295"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.279091695510664"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.279091695510664"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.2093981152386"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>GOREFlsh_Fruit Vegetable Impacts 03_PSE_OS_RDEHk.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1009620589"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GOREFlsh_Fruit Vegetable Impacts 03_PSE_OS_RDEHk" ID="{15E4683D-B19E-43B9-A500-CAEAE135F054}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Animals" ID="{B629CFA9-65A7-44BD-BB25-BF8107C541FD}" ShortID="898388508">
+					<ChildrenList>
+						<Folder Name="Camel" ID="{9CFDEAF4-9E63-4559-A4FA-780AE168866B}" ShortID="228954642">
+							<ChildrenList>
+								<Sound Name="ANIMAL WILD Camel C, Grunt, Groan, Roar, Expressive x10_wav 05" ID="{BF258ADE-603D-4AA8-810E-3EBAD2FF481D}" ShortID="878174445">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ANIMAL WILD Camel C, Grunt, Groan, Roar, Expressive x10_wav 05" ID="{8D63E42D-9AF5-4447-BB3C-802875ED70E7}">
+											<Language>SFX</Language>
+											<AudioFile>ANIMAL WILD Camel C, Grunt, Groan, Roar, Expressive x10.wav 05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="27251128"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ANIMAL WILD Camel C, Grunt, Groan, Roar, Expressive x10_wav 05" ID="{8D63E42D-9AF5-4447-BB3C-802875ED70E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ANIMAL WILD Camel A, Grunt, Groan, Roar x13_wav 12" ID="{649C6FD8-BA51-400B-AE51-24836B401CDE}" ShortID="629344099">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ANIMAL WILD Camel A, Grunt, Groan, Roar x13_wav 12" ID="{9A8D80B5-EF89-4D45-888C-9E301BB3DA25}">
+											<Language>SFX</Language>
+											<AudioFile>ANIMAL WILD Camel A, Grunt, Groan, Roar x13.wav 12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="624592409"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ANIMAL WILD Camel A, Grunt, Groan, Roar x13_wav 12" ID="{9A8D80B5-EF89-4D45-888C-9E301BB3DA25}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Donkey" ID="{8D99F8CD-AF01-49AA-90C5-6B0E5029D655}" ShortID="751859838">
+							<ChildrenList>
+								<Sound Name="Donkey Bray" ID="{D2F69E25-83C2-4DEA-957C-A94B5C3C2D46}" ShortID="799922277">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C81A09BF-46E6-4EE0-BCA6-3D55E9AEC215}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6FAF5F6B-98D0-4968-8199-6A4F63268C43}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="07035004" ID="{3FD644FE-3CDB-49DC-9013-95DC888ABCA8}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.198864626572122"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.154672487333872"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.89458512010533"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.14838445013787"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>07035004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="611676979"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="07035004" ID="{3FD644FE-3CDB-49DC-9013-95DC888ABCA8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

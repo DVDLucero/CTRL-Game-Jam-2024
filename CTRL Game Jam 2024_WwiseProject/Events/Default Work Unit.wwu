@@ -10,7 +10,18 @@
 								<Action Name="" ID="{62516F5A-8049-4652-A6D2-A82324627BB5}" ShortID="660704843">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Sand" ID="{4F392C40-258F-4018-913D-88BDE74A8CBD}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+											<ObjectRef Name="Footsteps" ID="{F5F8BDD1-A19C-4D94-B54A-6284E96B1802}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_footsteps_donkey" ID="{DA7DBD1A-1A4A-4B2C-BA1B-23B922147C67}">
+							<ChildrenList>
+								<Action Name="" ID="{F241BA2B-46AF-4102-8EFC-021F59E7440C}" ShortID="623971481">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hoofsteps" ID="{5B03A275-74B4-4CAB-BA77-EA28629F423F}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -22,21 +33,91 @@
 					<ChildrenList>
 						<Event Name="play_music_arabic_calm" ID="{0D46495F-4013-496A-8502-973F550D8325}">
 							<ChildrenList>
-								<Action Name="" ID="{11935CB3-5BE5-4254-A760-1A977589EB84}" ShortID="353806969"/>
+								<Action Name="" ID="{11935CB3-5BE5-4254-A760-1A977589EB84}" ShortID="353806969">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Arabic Music Calm" ID="{F51B3C16-C6A8-4966-AAE3-A3DB0633795D}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="play_music_arabic_active" ID="{BEF8C9E2-3BF8-44FB-87CF-59F3D34382C1}"/>
-						<Event Name="stop_music_all" ID="{C72FF101-A5A8-4A39-B6DA-0B78F85FB580}"/>
+						<Event Name="play_music_arabic_active" ID="{BEF8C9E2-3BF8-44FB-87CF-59F3D34382C1}">
+							<ChildrenList>
+								<Action Name="" ID="{BA32A0E2-8C3B-4773-B8E8-579A6B3E43CC}" ShortID="568928910">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Arabic Music Active" ID="{7AF62EDC-1ACE-4642-8C57-D43CE6E8EC89}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="stop_music_all" ID="{C72FF101-A5A8-4A39-B6DA-0B78F85FB580}">
+							<ChildrenList>
+								<Action Name="" ID="{BCAB867C-8DC0-47CD-81EB-BD188FDC2C51}" ShortID="221479283">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Arabic Music Active" ID="{7AF62EDC-1ACE-4642-8C57-D43CE6E8EC89}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6712C328-7152-4C44-A928-6D5F64213048}" ShortID="677782856">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Arabic Music Calm" ID="{F51B3C16-C6A8-4966-AAE3-A3DB0633795D}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{D6CBF976-4866-443A-9849-06EC724F91BA}" ShortID="777944068">
 					<ChildrenList>
-						<Event Name="play_ambient_desert_city" ID="{3BF692D0-3FB0-450C-B0A1-935CCB12AB5E}"/>
-						<Event Name="stop_ambient_desert_city" ID="{54D9AFE2-1644-4CEB-A010-7163DABFCC89}"/>
+						<Event Name="play_ambient_desert" ID="{3BF692D0-3FB0-450C-B0A1-935CCB12AB5E}">
+							<ChildrenList>
+								<Action Name="" ID="{40C2DB7C-614F-4C68-97B5-2AA3C9826E8A}" ShortID="732941335">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TonalWind_Atmo_FluteLikeRoughMids_HeavyBlow _Mono" ID="{53CD3092-5D46-4777-8930-87E713155E7E}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="stop_ambient_desert" ID="{54D9AFE2-1644-4CEB-A010-7163DABFCC89}">
+							<ChildrenList>
+								<Action Name="" ID="{FCD04A2C-9545-453B-9F79-47D47703750C}" ShortID="221185455">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TonalWind_Atmo_FluteLikeRoughMids_HeavyBlow _Mono" ID="{53CD3092-5D46-4777-8930-87E713155E7E}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{120099AE-C48F-4228-8284-A14B0BDC5242}" ShortID="790293178"/>
-				<Folder Name="Camel" ID="{CD2D5BC4-7E74-42D5-BD48-6E649BEA865C}" ShortID="409723691">
+				<Folder Name="Animals" ID="{CD2D5BC4-7E74-42D5-BD48-6E649BEA865C}" ShortID="409723691">
 					<ChildrenList>
 						<Event Name="play_camel_grunt" ID="{BF654A35-8015-4A93-BCAF-8F32770DEFA8}">
 							<ChildrenList>
@@ -44,6 +125,76 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ANIMAL WILD Camel A, Grunt, Groan, Roar x13_wav 12" ID="{649C6FD8-BA51-400B-AE51-24836B401CDE}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_donkey_bray" ID="{94798DEF-BA58-479E-9440-E2B37CF03D3E}">
+							<ChildrenList>
+								<Action Name="" ID="{B1F28C89-0FBF-4710-A5E0-DAA1BDB3F16A}" ShortID="979591653">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Donkey Bray" ID="{D2F69E25-83C2-4DEA-957C-A94B5C3C2D46}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Misc" ID="{7708805C-9571-4264-BAB0-E9F348B4A3D4}" ShortID="179313221">
+					<ChildrenList>
+						<Event Name="play_coin_pickup" ID="{DB1EEB0B-2B08-4B47-A8A3-859C1472D40C}">
+							<ChildrenList>
+								<Action Name="" ID="{6988C80D-5FA6-4AA4-8804-F0F9C636CF88}" ShortID="473877427">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pickup Coin Low 16bit" ID="{41237770-F6DE-4340-8183-29BC61A84531}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_sword_miss" ID="{D07FD9CE-2CA4-418A-A243-D2A02610B96F}">
+							<ChildrenList>
+								<Action Name="" ID="{4D1C27C5-D193-4729-9F53-CDFCF0E1F8CC}" ShortID="533148784">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sword Swing Miss" ID="{22CBE285-4504-49EA-B570-867A1143226A}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_sword_hit" ID="{F3578A7B-7E4E-4BE5-9B01-4A42BE51A956}">
+							<ChildrenList>
+								<Action Name="" ID="{FCD81D0D-8C16-4850-A40B-858BE457A8C8}" ShortID="371941537">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sword Swing Hit" ID="{96D79910-5BD7-4AB1-82A2-5A21A0ACA2B9}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_collect_water" ID="{DEAE877E-8F47-426B-9CEF-E976CD8BF20B}">
+							<ChildrenList>
+								<Action Name="" ID="{1A2EFF26-6780-4549-9F01-E7500C108F84}" ShortID="385593496">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pouring Water" ID="{135F0981-C9BF-4639-971E-37FA1015132E}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_collect_fruit" ID="{5B5F1175-D28C-4663-A948-A24143AC4150}">
+							<ChildrenList>
+								<Action Name="" ID="{2EDF0223-6AC9-4F71-803B-83BB03069C33}" ShortID="532012950">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fruit Squish" ID="{45E034DA-944D-4F9F-A3B6-54EAF8C49D5A}" WorkUnitID="{67B2AA30-0FE6-402D-84C9-820C422E1728}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

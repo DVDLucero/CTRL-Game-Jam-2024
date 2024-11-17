@@ -4,7 +4,17 @@
 		<WorkUnit Name="Default Work Unit" ID="{49823DA0-0AD9-4545-9433-EC02AAFC2038}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{61CCFF80-7E7D-446D-AC5E-6D7ECED32A85}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="play_sword_miss" ID="{D07FD9CE-2CA4-418A-A243-D2A02610B96F}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_footsteps_player" ID="{6A48A850-5F6D-4264-953F-0116BE348D1C}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_music_arabic_active" ID="{BEF8C9E2-3BF8-44FB-87CF-59F3D34382C1}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_music_arabic_calm" ID="{0D46495F-4013-496A-8502-973F550D8325}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="stop_music_all" ID="{C72FF101-A5A8-4A39-B6DA-0B78F85FB580}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_camel_grunt" ID="{BF654A35-8015-4A93-BCAF-8F32770DEFA8}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_footsteps_donkey" ID="{DA7DBD1A-1A4A-4B2C-BA1B-23B922147C67}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_coin_pickup" ID="{DB1EEB0B-2B08-4B47-A8A3-859C1472D40C}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_sword_hit" ID="{F3578A7B-7E4E-4BE5-9B01-4A42BE51A956}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
