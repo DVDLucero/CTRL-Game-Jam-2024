@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
         
         RaycastHit hit;
         Vector3 castPos = transform.position;
-        if (Physics.Raycast(castPos, -transform.up, out hit, Mathf.Infinity, terrainLayer))
+        /*if (Physics.Raycast(castPos, -transform.up, out hit, Mathf.Infinity, terrainLayer))
         {
             if (hit.collider != null)
             {
@@ -37,11 +37,12 @@ public class PlayerController : MonoBehaviour
                 transform.position = movePos;
             }
         }
+        */
         
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
             
-        _moveDir = new Vector3(x, 0, y);
+        _moveDir = new Vector3(x,rb.velocity.y, y);
         rb.velocity = _moveDir * speed;
 
         if (Input.GetKey(KeyCode.LeftShift))
@@ -74,5 +75,15 @@ public class PlayerController : MonoBehaviour
         {
             sr.flipX = true;
         }
+        
     }
+    
+    public AK.Wwise.Event walkSound;
+
+    public void PlayWalkSound()
+    {
+        walkSound.Post(gameObject);
+    }
+    
+    
 }

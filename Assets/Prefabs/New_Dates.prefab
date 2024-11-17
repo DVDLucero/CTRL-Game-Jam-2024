@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3513020095110877374}
   m_Layer: 0
   m_Name: New_Dates
-  m_TagString: Untagged
+  m_TagString: Date
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,3 +143,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectSound: {fileID: 0}
   collectEffect: {fileID: 0}
+  collectableScoring: {fileID: 0}

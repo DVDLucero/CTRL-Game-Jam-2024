@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,12 @@ public class Collectible : MonoBehaviour
     // Optional: Sound or particle effect when collected
     public AudioClip collectSound;
     public GameObject collectEffect;
+    public CollectableScoring collectableScoring;
+
+    private void Awake()
+    {
+        collectableScoring = FindObjectOfType<CollectableScoring>();
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -24,6 +31,12 @@ public class Collectible : MonoBehaviour
             {
                 Instantiate(collectEffect, transform.position, Quaternion.identity);
             }
+
+            String sendString = this.gameObject.tag.ToString();
+            
+            collectableScoring.AddToCount(sendString);
+            Debug.Log(sendString);
+            
 
             // Destroy the collectible
             Destroy(gameObject);
