@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BanditAI : MonoBehaviour
@@ -36,5 +37,19 @@ public class BanditAI : MonoBehaviour
             Vector3 direction = (player.position - transform.position).normalized;
             rb.MovePosition(transform.position + direction * speed * Time.deltaTime);
         }
+        
+        
+    }
+    
+    void OnTriggerEnter(Collider other)
+    {
+        // Check if the object colliding is the player
+        if (other.CompareTag("Player"))
+        {
+            // Destroy the collectible
+            Debug.Log("Player Contact");
+            Destroy(other.gameObject);
+        }
     }
 }
+
