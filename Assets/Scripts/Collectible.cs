@@ -16,30 +16,32 @@ public class Collectible : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other)
-    {
-        // Check if the object colliding is the player
-        if (other.CompareTag("Player"))
-        {
-            // Optional: Play sound if there is one
-            if (collectSound != null)
-            {
-                AudioSource.PlayClipAtPoint(collectSound, transform.position);
-            }
+         {
+             // Check if the object colliding is the player
+             if (other.CompareTag("Player"))
+             {
+                 // Optional: Play sound if there is one
+                 if (collectSound != null)
+                 {
+                     AudioSource.PlayClipAtPoint(collectSound, transform.position);
+                 }
+     
+                 // Optional: Instantiate a particle effect
+                 if (collectEffect != null)
+                 {
+                     Instantiate(collectEffect, transform.position, Quaternion.identity);
+                 }
+     
+                 String sendString = this.gameObject.tag.ToString();
+                 
+                 collectableScoring.AddToCount(sendString);
+                 Debug.Log(sendString);
+                 
+     
+                 // Destroy the collectible
+                 Destroy(gameObject);
+             }
+         }
+ 
 
-            // Optional: Instantiate a particle effect
-            if (collectEffect != null)
-            {
-                Instantiate(collectEffect, transform.position, Quaternion.identity);
-            }
-
-            String sendString = this.gameObject.tag.ToString();
-            
-            collectableScoring.AddToCount(sendString);
-            Debug.Log(sendString);
-            
-
-            // Destroy the collectible
-            Destroy(gameObject);
-        }
-    }
 }

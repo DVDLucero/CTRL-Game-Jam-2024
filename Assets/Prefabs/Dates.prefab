@@ -120,8 +120,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7a676265441a2f45a5b7f6c2f6f7081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectSound: {fileID: 0}
+  collectSound: {fileID: 8300000, guid: 8533b8934eba2ae46a2616e8d208ca46, type: 3}
   collectEffect: {fileID: 0}
+  collectableScoring: {fileID: 0}
 --- !u!135 &2565024549883729721
 SphereCollider:
   m_ObjectHideFlags: 0

@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{D9D0D1EE-06C3-4C33-AC4A-A2E520F271D7}" SchemaVersion="123">
+<WwiseDocument Type="WorkUnit" ID="{49823DA0-0AD9-4545-9433-EC02AAFC2038}" SchemaVersion="123">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{D9D0D1EE-06C3-4C33-AC4A-A2E520F271D7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{49823DA0-0AD9-4545-9433-EC02AAFC2038}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{61CCFF80-7E7D-446D-AC5E-6D7ECED32A85}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_sword_miss" ID="{D07FD9CE-2CA4-418A-A243-D2A02610B96F}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_voice_line_2" ID="{B5BC0AE5-E250-41D7-9D0C-C81668B823F5}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_footsteps_player" ID="{6A48A850-5F6D-4264-953F-0116BE348D1C}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_collect_water" ID="{DEAE877E-8F47-426B-9CEF-E976CD8BF20B}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_music_arabic_active" ID="{BEF8C9E2-3BF8-44FB-87CF-59F3D34382C1}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_ambient_desert" ID="{3BF692D0-3FB0-450C-B0A1-935CCB12AB5E}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_collect_fruit" ID="{5B5F1175-D28C-4663-A948-A24143AC4150}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_donkey_bray" ID="{94798DEF-BA58-479E-9440-E2B37CF03D3E}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_music_arabic_calm" ID="{0D46495F-4013-496A-8502-973F550D8325}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="stop_music_all" ID="{C72FF101-A5A8-4A39-B6DA-0B78F85FB580}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_camel_grunt" ID="{BF654A35-8015-4A93-BCAF-8F32770DEFA8}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_footsteps_donkey" ID="{DA7DBD1A-1A4A-4B2C-BA1B-23B922147C67}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_coin_pickup" ID="{DB1EEB0B-2B08-4B47-A8A3-859C1472D40C}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_sword_hit" ID="{F3578A7B-7E4E-4BE5-9B01-4A42BE51A956}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="stop_ambient_desert" ID="{54D9AFE2-1644-4CEB-A010-7163DABFCC89}" WorkUnitID="{606536A0-909E-46C5-8ABC-FE9FE0D56CB1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

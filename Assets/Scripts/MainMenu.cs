@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NewBehaviourScript : MonoBehaviour
+public class MainMenu : MonoBehaviour
 {
     public void Play()
     {
         // Loads the next scene in the build index
-        SceneManager.LoadScene("town");
+        SceneManager.LoadScene("Video");
     }
 
     public void Quit()

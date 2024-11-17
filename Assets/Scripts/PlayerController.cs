@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,7 +16,12 @@ public class PlayerController : MonoBehaviour
 
     private float x;
     float y;
-    
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
@@ -80,12 +86,13 @@ public class PlayerController : MonoBehaviour
         }
         
     }
-    
-    public AK.Wwise.Event walkSound;
+
+    public AudioSource audioSource;
+    public AudioClip walkSound;
 
     public void PlayWalkSound()
     {
-        walkSound.Post(gameObject);
+        audioSource.PlayOneShot(walkSound);
     }
     
     
