@@ -11,6 +11,41 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID PLAY_AMBIENT_DESERT = 3290117370U;
+        static const AkUniqueID PLAY_CAMEL_GRUNT = 3707039655U;
+        static const AkUniqueID PLAY_COIN_PICKUP = 3615788468U;
+        static const AkUniqueID PLAY_COLLECT_FRUIT = 726221595U;
+        static const AkUniqueID PLAY_COLLECT_WATER = 4174973952U;
+        static const AkUniqueID PLAY_DONKEY_BRAY = 2312358071U;
+        static const AkUniqueID PLAY_FOOTSTEPS_DONKEY = 572876586U;
+        static const AkUniqueID PLAY_FOOTSTEPS_PLAYER = 3044539581U;
+        static const AkUniqueID PLAY_MUSIC_ARABIC_ACTIVE = 2195648383U;
+        static const AkUniqueID PLAY_MUSIC_ARABIC_CALM = 1685763040U;
+        static const AkUniqueID PLAY_SWORD_HIT = 2694840227U;
+        static const AkUniqueID PLAY_SWORD_MISS = 977019804U;
+        static const AkUniqueID PLAY_VOICE_LINE_2 = 1618170554U;
+        static const AkUniqueID STOP_AMBIENT_DESERT = 1710138932U;
+        static const AkUniqueID STOP_MUSIC_ALL = 1369021357U;
+    } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace PLAYER_STATE
+        {
+            static const AkUniqueID GROUP = 4071417932U;
+
+            namespace STATE
+            {
+                static const AkUniqueID COMBAT = 2764240573U;
+                static const AkUniqueID EXPLORE = 579523862U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace PLAYER_STATE
+
+    } // namespace STATES
+
     namespace SWITCHES
     {
         namespace GROUND

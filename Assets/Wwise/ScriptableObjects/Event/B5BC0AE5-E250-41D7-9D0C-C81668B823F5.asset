@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3e5b1b318a094a7a8adaab48ef12413, type: 3}
+  m_Name: B5BC0AE5-E250-41D7-9D0C-C81668B823F5
+  m_EditorClassIdentifier: 
+  objectName: play_voice_line_2
+  id: 1618170554
+  guid: B5BC0AE5-E250-41D7-9D0C-C81668B823F5
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

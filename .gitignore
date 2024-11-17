@@ -70,7 +70,6 @@ sysinfo.txt
 *.wsettings
 IncrementalSoundBankData.xml
 
-
 # Crashlytics generated file
 crashlytics-build.properties
 

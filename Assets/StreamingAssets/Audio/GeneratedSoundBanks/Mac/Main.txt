@@ -1,0 +1,41 @@
+Event	ID	Name			Wwise Object Path	Notes
+	572876586	play_footsteps_donkey			\Default Work Unit\Locomotive\play_footsteps_donkey	
+	977019804	play_sword_miss			\Default Work Unit\Misc\play_sword_miss	
+	1369021357	stop_music_all			\Default Work Unit\Music\stop_music_all	
+	1685763040	play_music_arabic_calm			\Default Work Unit\Music\play_music_arabic_calm	
+	2195648383	play_music_arabic_active			\Default Work Unit\Music\play_music_arabic_active	
+	2652605998	play_item_pickup			\Default Work Unit\Misc\play_item_pickup	
+	2694840227	play_sword_hit			\Default Work Unit\Misc\play_sword_hit	
+	3044539581	play_footsteps_player			\Default Work Unit\Locomotive\play_footsteps_player	
+	3707039655	play_camel_grunt			\Default Work Unit\Camel\play_camel_grunt	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2528658256	Ground			\Default Work Unit\Ground	
+
+Switch	ID	Name	Switch Group			Notes
+	803837735	Sand	Ground			
+	1216965916	Stone	Ground			
+	2185786256	Gravel	Ground			
+	2654748154	Water	Ground			
+	4248645337	Grass	Ground			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	26149915	Snow Footstep 2	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\0D\{0D6E7815-0817-219A-E309-465C68B49B8C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Locomotive\Footsteps\Sand\Snow Footstep 2		87136
+	50728134	hoofsteps_gravel_1	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\68\{688810AF-AF66-F8B7-3707-B1F4EAEEF82C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Locomotive\Hoofsteps\hoofsteps_gravel_1		103552
+	167975413	Grass Footstep 3	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\00\{0005647E-4F9F-67C4-372B-1AC37A02D1BB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Locomotive\Footsteps\Grass\Grass Footstep 3		96352
+	246559958	Sword Swing Hit	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\84\{84EA473A-6637-780B-8883-E4800CC9B651}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Misc\Sword Swing Hit		176224
+	320881983	Pickup Coin Low 16bit	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\F7\{F755F42E-7A41-C23D-BC19-FE91E7FF266A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Misc\Pickup Coin Low 16bit		86308
+	332660438	Arabic Music Calm	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\62\{62CB5E4B-ED26-AF7E-5BCA-11B9D437B0A2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Arabic Music Calm		19584384
+	335674132	hoofsteps_gravel_2	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\DB\{DB24EA68-2A2A-7BED-62BF-4B2C8781529F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Locomotive\Hoofsteps\hoofsteps_gravel_2		115472
+	497425543	hoofsteps_gravel_3	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\7D\{7DEB3E3E-E923-D7C5-F9D7-D66D727842A4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Locomotive\Hoofsteps\hoofsteps_gravel_3		94480
+	554899032	Snow Footstep 3	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\38\{38AD1943-EF66-6881-C6EE-CF51538CEB86}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Locomotive\Footsteps\Sand\Snow Footstep 3		96352
+	622770812	Snow Footstep 1	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\CB\{CBE2F24F-2D36-8144-6C86-E3092C5EDE44}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Locomotive\Footsteps\Sand\Snow Footstep 1		96352
+	624592409	ANIMAL WILD Camel A, Grunt, Groan, Roar x13_wav 12	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\40\{40540729-0C78-00A1-6335-BAA84A7F76BC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Camel\ANIMAL WILD Camel A, Grunt, Groan, Roar x13_wav 12		185376
+	729752450	Grass Footstep 2	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\75\{75C669BB-C401-0C8F-EF1A-09091BB205C6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Locomotive\Footsteps\Grass\Grass Footstep 2		103232
+	771880888	Grass Footstep 4	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\F1\{F1FBC076-A5C4-DF60-4B60-888872005B05}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Locomotive\Footsteps\Grass\Grass Footstep 4		87136
+	814689027	hoofsteps_gravel_4	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\70\{7004EB55-E946-0191-0ADB-2612BAA04F35}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Locomotive\Hoofsteps\hoofsteps_gravel_4		108720
+	894006218	Grass Footstep 1	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\9E\{9E5A9EDA-42A8-75EC-3A07-CA28F65E6B15}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Locomotive\Footsteps\Grass\Grass Footstep 1		59312
+	920033310	Footsteps_Water_2	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\46\{4692F8B0-D4E7-D8BC-DE45-1A2A6E4878BE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Locomotive\Footsteps\Water\Footsteps_Water_2		238756
+	925353560	Arabic Music Active	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\1D\{1DAE5BB5-40FD-8006-5D99-F23CD1EB96EE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Arabic Music Active		38405560
+	1048546360	Sword Swing Miss	Y:\Documents\GitHub\CTRL-Game-Jam-2024\CTRL Game Jam 2024_WwiseProject\.cache\F3\{F337520C-81B4-DA8B-D605-1345B3F5A90C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Misc\Sword Swing Miss		69728
+
